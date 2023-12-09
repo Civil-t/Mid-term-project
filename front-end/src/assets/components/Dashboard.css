@@ -1,0 +1,24 @@
+.custom-card {
+    height: 600px; /* adjust as needed */
+  }
+  
+  /* For devices smaller than 1200px */
+  @media (max-width: 1200px) {
+    .custom-card {
+      height: 500px; /* adjust as needed */
+    }
+  }
+  
+  /* For devices smaller than 992px */
+  @media (max-width: 992px) {
+    .custom-card {
+      height: 400px; /* adjust as needed */
+    }
+  }
+  
+  /* For devices smaller than 768px */
+  @media (max-width: 768px) {
+    .custom-card {
+      height: 300px; /* adjust as needed */
+    }
+  }

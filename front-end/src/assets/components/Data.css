@@ -1,0 +1,33 @@
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.data-table th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.data-table th:nth-child(odd) {
+    background: #00787d;
+    color: white;
+}
+
+.data-table th:nth-child(even) {
+    background: #199296;
+    color: white;
+}
+
+.data-table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.data-table td:nth-child(odd) {
+    background-color: #00a9ae;
+}
+
+.data-table td:nth-child(even) {
+    background-color: #17bac7;
+}
